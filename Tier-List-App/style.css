@@ -1,0 +1,51 @@
+#tier {
+    padding : 5px;
+    width : 40%;
+    border : 3px solid black;
+    border-radius: 10px;
+}
+#btn{
+    padding : 5px;
+    border : 3px solid black;
+    border-radius: 10px;
+
+}
+.tier_list {
+    margin-top: 2rem;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 1rem;
+    display: flex;
+
+
+}
+.tier_list > h1 {
+    padding-right: 15px;
+    border-right: 4px solid black;
+}
+
+#image{
+    padding : 5px;
+    width : 40%;
+    border : 3px solid black;
+    border-radius: 10px;
+}
+#image-btn{
+    border : 3px solid black;
+    border-radius: 10px;
+    padding : 5px;
+}
+#image-section{
+    border : 1px solid black;
+    padding : 5px;
+    border-radius: 20px;
+    display: flex;
+}
+.image-list{
+    display: block;
+    padding : 5px;
+}
+.image-list > img{
+    width : 75px;
+    height : 100px;
+}

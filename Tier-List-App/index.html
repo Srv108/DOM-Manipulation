@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tier-List-App</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <h1><center> Your Own Tier-List App....</center></h1>
+    <form >
+        <label for="tier" ><b> Tier: </b></label>
+        <input type="text" id="tier" name="tier" placeholder="Give Your Tier Name....."/>
+        <button type="submit" id="btn" value="Submit"  >Submit</button>
+    </form><hr>
+
+
+    <form >
+        <label for="image" ><b> Image: </b></label>
+        <input type="text" id="image" name="tier" placeholder="Give Your Image Url....."/>
+        <button type="submit" id="image-btn" value="Submit"  >Submit</button>
+    </form><hr>
+
+    <section id="tier-section">
+        <!-- <div class="tier_list">
+            <h1 class="items_title"> Tier List </h1>
+            <div class="tier-list-items">
+
+            </div>
+        </div> -->
+    </section>
+
+    <hr>
+
+    <section id="image-section">
+        <div class="image-list" draggable="true">
+            <img class="image-item"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJdSEApZhWVtkbYaQ4zDZkO9_GYcJLuCC2yA&s" >
+        </div>
+        
+        
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

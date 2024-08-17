@@ -1,0 +1,82 @@
+html,body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+}
+#form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    
+}
+#form > button{
+    padding: 5px;
+    border-radius: 8px;
+}
+#list{
+    width: 600px;
+    padding:6px;
+    border : 3px solid black;
+    border-radius: 10px;
+}
+#section{
+    border : 3px solid black ;
+    border-radius: 10px;
+    max-width: 800px;
+    width: 660px;
+    min-height: auto;
+    margin: 5px;
+}
+#items{
+    border : 1px ridge black;
+    height : 50px;
+    padding : 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: solid green;
+
+    /* position :relative; */
+}
+
+.tittle{
+    padding: 10px;
+    font-family: serif;
+    border-right: 2px solid black;
+}
+.btn-open{
+    padding: 10px;
+    display: block;
+    background-color: gray;
+    border-radius: 10px;
+}
+#myTextarea{
+    width: 100%; /* Full width of its container */
+    max-width: 700px; /* Optional max width */
+    min-height: 10px; /* Minimum height for the textarea */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    resize: both;
+    border-radius: 8px;
+}
+
+.content{
+    display: none;
+}
+.button-group{
+    display: flex;
+}
+.btn{
+    display: block;
+}
+.paragraph{
+    padding : 10px;
+    display: flex; 
+    justify-content : space-between;
+    align-items: center;
+    position : relative;
+}
+button{
+    padding : 5px;
+}
